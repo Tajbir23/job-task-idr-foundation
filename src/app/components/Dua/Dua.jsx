@@ -19,7 +19,7 @@ const Dua = ({children, heading, reference, audio=false}) => {
 
         <div className="flex items-center justify-between">
             <div>
-                {audio &&<Image src={play} height={100} width={100} className="h-11 w-11 cursor-pointer" />}
+                {audio &&<Image src={play} height={100} width={100} alt="audio" className="h-11 w-11 cursor-pointer" />}
             </div>
             <div className=" flex gap-5 items-center">
                 <Image src={copy} height={100} width={100} alt="icon" className="h-4 w-4 cursor-pointer" />

@@ -16,4 +16,9 @@ const memory = '/icons/dua/memory.svg'
 const share = '/icons/dua/share.svg'
 const info = '/icons/dua/info.svg'
 const play = '/icons/dua/play.svg'
-export {logo, home, allduas, bookmarks, books, memories, qna, ruqyah, support, search, duaAvatar, allah, copy, bookmark, memory, share, info, play}
+const profile = '/icons/profile/profile.svg'
+const downArrow = '/icons/profile/downArrow.svg'
+const settings = '/icons/profile/settings.svg'
+const lefArrow = '/icons/profile/left-arrow.svg'
+const menu = '/icons/profile/menu.svg'
+export {logo, home, allduas, bookmarks, books, memories, qna, ruqyah, support, search, duaAvatar, allah, copy, bookmark, memory, share, info, play, profile, downArrow, settings, lefArrow, menu}

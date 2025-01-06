@@ -3,12 +3,11 @@ import Image from "next/image"
 import Category from "./Category"
 
 
-const Categories = () => {
+const Categories = ({className}) => {
   return (
-    <div className="ml-32 overflow-hidden">
-        <h1 className="font-semibold text-2xl">Duas page</h1>
+    <div className={`${className} overflow-hidden`}>
 
-        <div className="w-80 bg-white rounded-[10px] my-10 overflow-hidden">
+        <div className="w-80 bg-white rounded-[10px] overflow-hidden">
             <div className="bg-[#1FA45B] rounded-t-[10px]">
                 <h1 className="text-center font-semibold text-base p-5 text-white">Categories</h1>
             </div>

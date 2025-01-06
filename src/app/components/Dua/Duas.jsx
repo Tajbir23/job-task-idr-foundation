@@ -5,11 +5,8 @@ import Search from "./Search"
 const Duas = () => {
   return (
     <div className="w-full">
-      <div className="mb-16">
-        <Search />
-      </div>
       
-      <div className="pt-2 overflow-auto h-[calc(100vh-140px)] rounded-lg">
+      <div className=" overflow-auto h-[calc(100vh-140px)] rounded-lg">
         <div className="p-5 bg-white rounded-xl">
             <h1><span className="text-[#1FA45B] font-semibold text-base">Section:</span> <span className="font-medium text-base">The servant is dependent on his Lord</span></h1>
         </div>
