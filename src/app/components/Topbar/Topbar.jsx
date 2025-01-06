@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Search from "../Dua/Search"
-import { logo } from "@/app/lib/icons"
+import { avatar, logo, settings } from "@/app/lib/icons"
 
 
 const Topbar = ({className}) => {
@@ -12,7 +12,13 @@ const Topbar = ({className}) => {
             <h1 className="font-semibold text-2xl">Dua & Ruqyah</h1>
         </div>
      
-        <Search />
+        <div className="flex gap-5 items-center">
+          <Search />
+          <div className="flex items-center gap-5 lg:flex-row-reverse">
+              <Image src={settings} height={100} width={100} alt="setting" className="h-4 w-4 cursor-pointer" />
+              <Image src={avatar} height={100} width={100} alt="avatar" className="h-8 w-8 cursor-pointer xl:hidden" />
+          </div>
+        </div>
       
     </div>
   )

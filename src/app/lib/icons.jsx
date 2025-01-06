@@ -21,4 +21,5 @@ const downArrow = '/icons/profile/downArrow.svg'
 const settings = '/icons/profile/settings.svg'
 const lefArrow = '/icons/profile/left-arrow.svg'
 const menu = '/icons/profile/menu.svg'
-export {logo, home, allduas, bookmarks, books, memories, qna, ruqyah, support, search, duaAvatar, allah, copy, bookmark, memory, share, info, play, profile, downArrow, settings, lefArrow, menu}
+const avatar = '/icons/profile/avatar.svg'
+export {logo, home, allduas, bookmarks, books, memories, qna, ruqyah, support, search, duaAvatar, allah, copy, bookmark, memory, share, info, play, profile, downArrow, settings, lefArrow, menu, avatar}
