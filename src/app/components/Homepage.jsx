@@ -4,6 +4,7 @@ import Categories from "./Categories/Categories"
 import { menu } from "../lib/icons"
 import Duas from "./Dua/Duas"
 import { useEffect, useRef, useState } from "react"
+import Settings from "./Settings/Settings"
 
 
 const Homepage = () => {
@@ -39,6 +40,7 @@ const Homepage = () => {
               {toggle && <p onClick={() => setToggle(false)} className="text-2xl p-5 cursor-pointer absolute  -top-2 right-0 md:left-80 lg:hidden">x</p>}
           </div>
           <Duas />
+          <Settings/>
         </div>
     </div>
     </div>

@@ -18,7 +18,7 @@ const Categories = ({className}) => {
                 <input type="text" placeholder="Search" className="w-full p-2 pl-10 border rounded-md" />
             </div>
 
-            <div className="overflow-y-auto flx flex-col gap-10 lg:h-[calc(90vh-225px)]">
+            <div className="overflow-y-auto flx flex-col gap-10 lg:h-[calc(100vh-285px)]">
                 <Category />
                 <Category />
             </div>

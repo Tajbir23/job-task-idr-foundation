@@ -14,9 +14,9 @@ const Topbar = ({className}) => {
      
         <div className="flex gap-5 items-center">
           <Search />
-          <div className="flex items-center gap-5 lg:flex-row-reverse">
-              <Image src={settings} height={100} width={100} alt="setting" className="h-4 w-4 cursor-pointer" />
-              <Image src={avatar} height={100} width={100} alt="avatar" className="h-8 w-8 cursor-pointer xl:hidden" />
+          <div className="flex items-center gap-5 lg:flex-row-reverse xl:ml-56">
+              <Image src={settings} height={100} width={100} alt="setting" className="h-4 w-4 cursor-pointer xl:hidden" />
+              <Image src={avatar} height={100} width={100} alt="avatar" className="h-8 w-8 cursor-pointer" />
           </div>
         </div>
       

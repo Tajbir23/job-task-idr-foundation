@@ -22,4 +22,7 @@ const settings = '/icons/profile/settings.svg'
 const lefArrow = '/icons/profile/left-arrow.svg'
 const menu = '/icons/profile/menu.svg'
 const avatar = '/icons/profile/avatar.svg'
-export {logo, home, allduas, bookmarks, books, memories, qna, ruqyah, support, search, duaAvatar, allah, copy, bookmark, memory, share, info, play, profile, downArrow, settings, lefArrow, menu, avatar}
+const language = '/icons/settings/language.svg'
+const general = '/icons/settings/general.svg'
+const fontSettings = '/icons/settings/font-settings.svg'
+export {logo, home, allduas, bookmarks, books, memories, qna, ruqyah, support, search, duaAvatar, allah, copy, bookmark, memory, share, info, play, profile, downArrow, settings, lefArrow, menu, avatar, language, general, fontSettings}
